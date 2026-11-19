@@ -37,9 +37,25 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(
     MaterialApp(
-      home: Text(
-        'Привет! Меня зовут Ангелина.\nЯ студент группы ИСП242.',
-        style: TextStyle(fontSize: 24),
+      home: Scaffold(
+        body: Center(
+          child: Column(
+            mainAxisAlignment:
+                MainAxisAlignment.center,
+            children: [
+              Text(
+                'Привет! Меня зовут Ангелина.\nЯ студент группы ИСП242.',
+                textAlign: TextAlign.center,
+                style: TextStyle(fontSize: 20),
+              ),
+              SizedBox(height: 20),
+              Image.network(
+                'https://flutter.github.io/assets-for-api-docs/assets/widgets/owl.jpg',
+                width: 300,
+              ),
+            ],
+          ),
+        ),
       ),
     ),
   );
