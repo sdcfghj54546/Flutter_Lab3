@@ -4,7 +4,7 @@ void main() {
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: (Scaffold(
+      home: Scaffold(
         body: Container(
           decoration: BoxDecoration(
             gradient: LinearGradient(
@@ -13,8 +13,8 @@ void main() {
                 Colors.blue,
                 Colors.red,
               ],
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
+              begin: Alignment.topLeft,
+              end: Alignment.bottomRight,
             ),
           ),
           child: Center(
@@ -27,7 +27,7 @@ void main() {
             ),
           ),
         ),
-      )),
+      ),
     ),
   );
 }
