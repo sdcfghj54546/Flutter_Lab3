@@ -44,5 +44,16 @@ app.*.map.json
 /android/app/profile
 /android/app/release
 
-# Widget Preview related
+
 .widget_preview/
+.gitignore
+android
+ios
+linux
+macos
+windows
+# IDE и системные файлы
+.idea
+*.iml
+.DS_Store
+Thumbs.db
