@@ -1,17 +1,35 @@
-# first_flutter_app
+# Мое первое Flutter-приложение
 
-A new Flutter project.
+Проект создан в рамках лабораторной работы №3 по изучению фреймворка Flutter. Приложение демонстрирует базовую работу с виджетами, деревом виджетов и создание красивого градиентного фона.
 
-## Getting Started
+## Информация об авторе
 
-This project is a starting point for a Flutter application.
+- **Имя:** Коновалова Ангелина
+- **Группа:** ИСП242
 
-A few resources to get you started if this is your first Flutter project:
+## Стек и версии
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+- **Flutter:** 3.x.x (stable)
+- **Dart:** 3.x.x
+- **Платформа:** Web (Chrome)
+- **IDE:** VS Code
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Скриншот приложения
+
+![Скриншот приложения](img/step8_ККоноваловаИзускина.png)
+
+## Запуск
+
+1. Клонировать репозиторий: `git clone https://github.com/sdcfghj54546/Flutter_Lab3.git`
+2. Перейти в папку проекта: `cd Flutter_Lab3`
+3. Выполнить `flutter pub get`
+4. Запустить командой `flutter run -d chrome`
+
+## Что изучили
+
+- Основы работы с фреймворком Flutter и структуру проекта.
+- Понятие виджетов и дерева виджетов (Widget Tree).
+- Базовые виджеты: `MaterialApp`, `Scaffold`, `Center`, `Text`, `Container`.
+- Создание градиента с помощью `BoxDecoration` и `LinearGradient`.
+- Разницу между Hot Reload (обновление UI) и Hot Restart (полный перезапуск).
+- Работу с инструментами разработчика (Flutter DevTools и Flutter Inspector).
